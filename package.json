@@ -7,7 +7,7 @@
     "test": ".\\node_modules\\.bin\\cypress run",
     "headedTest": "npm run test -- --headed",
     "headedTestChrome": "npm run test -- --browser chrome",
-    "chromerun": "npm run test --spec \"cypress/integration/examples/BDD/login.feature\"  --headed --browser chrome",
+    "chromerun": "npm run test -- --headed --browser chrome",
     "headedTestChromeReporter": "npm run test -- --browser chrome --reporter mochawesome"
   },
   "cypress-cucumber-preprocessor": {
